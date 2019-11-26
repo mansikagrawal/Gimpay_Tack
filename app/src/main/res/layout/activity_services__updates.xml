@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+
+    tools:context=".Services_Updates">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="196dp"
+        android:layout_height="53dp"
+        android:background="@drawable/adminsel"
+        android:fontFamily="cursive"
+        android:text="Share Location"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="196dp"
+        android:layout_height="53dp"
+        android:background="@drawable/adminsel"
+        android:fontFamily="cursive"
+        android:text="Log out"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="28sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Gimpay Tack"
+        android:textAppearance="?android:textAppearanceLarge"
+
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

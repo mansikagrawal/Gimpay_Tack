@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".User_Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_margin="20dp"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"
+
+        android:layout_margin="15dp"
+        android:hint="E-mail"
+        android:id="@+id/email_login_user"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:hint="Password"
+        android:id="@+id/pass_login_user"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:background="@drawable/edit_text_border"
+        android:padding="10dp"
+        android:inputType="textPassword"/>
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="LOGIN"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@drawable/adminsel"
+        android:id="@+id/login_btn"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have account Sign up here"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="7dp"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:id="@+id/signup_txt"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+
+
+</LinearLayout>

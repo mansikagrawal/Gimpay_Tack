@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_User_Select_Activity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Select Log In Type"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:id="@+id/admin"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:background="@drawable/adminsel"
+        android:text="ADMIN"
+        android:fontFamily="cursive"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="USER"
+        android:id="@+id/user"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:fontFamily="cursive"
+        android:background="@drawable/adminsel"/>
+
+
+
+
+</LinearLayout>

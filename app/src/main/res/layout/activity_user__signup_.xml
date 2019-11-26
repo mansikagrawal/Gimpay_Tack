@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".User_Signup_Activity">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="Welcome! New Employee"
+            android:layout_margin="100dp"
+            android:textSize="30sp"
+
+            android:fontFamily="cursive"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:background="@drawable/edit_text_border"
+            android:padding="10dp"
+
+            android:layout_margin="15dp"
+            android:hint="Enter E-mail"
+            android:id="@+id/email_signup"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:background="@drawable/edit_text_border"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            android:hint="Enter new password"
+            android:id="@+id/pass_signup"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint=" Confirm Password"
+            android:id="@+id/confirmpass_signup"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:background="@drawable/edit_text_border"
+            android:padding="10dp"
+            android:inputType="textPassword"/>
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="SIGN UP"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:background="@drawable/adminsel"
+            android:id="@+id/signup_btn"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already having an account? Sign in here"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="7dp"
+            android:textSize="18sp"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:id="@+id/signin_txt"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>
