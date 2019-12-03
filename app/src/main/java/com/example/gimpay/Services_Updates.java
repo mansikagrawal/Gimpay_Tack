@@ -105,10 +105,8 @@ Button share,logout;
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                pd.setMessage("Processing...");
-                pd.show();
+
                 startActivity(new Intent(getApplicationContext(),Admin_User_Select_Activity.class));
-       pd.dismiss();
 
 
             }

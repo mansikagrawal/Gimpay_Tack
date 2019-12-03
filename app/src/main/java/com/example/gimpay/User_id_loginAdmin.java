@@ -42,6 +42,8 @@ public class User_id_loginAdmin extends AppCompatActivity {
 
 
 
+                startActivity(new Intent(getApplicationContext(),Admin_Part.class));
+
 
             }
         });
